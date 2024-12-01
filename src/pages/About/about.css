@@ -1,0 +1,150 @@
+/* General styles for all screen sizes */
+.About_bg {
+    background-image: url('../../assets//images//img14.png');
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 4.5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.about_heading {
+    font-size: 2rem;
+    color: #1F2B6C;
+    font-weight: 700;
+}
+
+.about_span {
+    font-size: 1rem;
+    color: #1F2B6C;
+    font-weight: 500;
+}
+
+.about_span a {
+    text-decoration: none;
+    color: #1F2B6C;
+}
+
+.List_abou li {
+    font-size: 1.1rem;
+    margin-bottom: 1.3rem;
+    position: relative;
+    padding-left: 20px; 
+}
+
+.Slide_about {
+    background-image: url("../../assets//images//img16.png");
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem 0;
+}
+
+.icon_about_comma i {
+    font-size: 3rem;
+    color: #BFD2F8;
+}
+
+.choose-heading {
+    color: #159EEC;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 0.1rem;
+}
+
+.choose-subheading {
+    color: #1F2B6C;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+    .About_bg {
+        height: 30vh;
+    }
+
+    .about_heading {
+        font-size: 1.8rem;
+    }
+
+    .List_abou li {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .Slide_about {
+        height: auto;
+    }
+
+    .icon_about_comma i {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .About_bg {
+        height: 25vh;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about_heading {
+        font-size: 1.5rem;
+    }
+
+    .about_span {
+        font-size: 0.9rem;
+    }
+
+    .List_abou li {
+        font-size: 0.9rem;
+    }
+
+    .choose-heading {
+        font-size: 0.9rem;
+    }
+
+    .choose-subheading {
+        font-size: 1.8rem;
+    }
+
+    .icon_about_comma i {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .About_bg {
+        height: 20vh;
+    }
+
+    .about_heading {
+        font-size: 1.2rem;
+    }
+
+    .about_span {
+        font-size: 0.8rem;
+    }
+
+    .List_abou li {
+        font-size: 0.8rem;
+    }
+
+    .choose-heading {
+        font-size: 0.8rem;
+    }
+
+    .choose-subheading {
+        font-size: 1.5rem;
+    }
+
+    .icon_about_comma i {
+        font-size: 1.5rem;
+    }
+}

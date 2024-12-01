@@ -1,0 +1,166 @@
+.contact_bg {
+    background-image: url('../../assets/images/img30.png');
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 4.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.contact_heading {
+    font-size: 2rem;
+    color: #1F2B6C;
+    font-weight: 700;
+}
+
+.contact_span {
+    font-size: 1rem;
+    color: #1F2B6C;
+    font-weight: 500;
+}
+
+.contact_span a {
+    color: #1F2B6C;
+    text-decoration: none;
+}
+
+.contact_heading_2 {
+    font-size: 2rem;
+    color: #1F2B6C;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.contact_para {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 500;
+}
+
+.contact_card {
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 2px solid #1F2B6C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.contact_card i {
+    font-size: 2rem;
+    color: #1F2B6C;
+}
+
+.contact_line img {
+    width: auto;
+    height: 150px;
+}
+
+.img_dot {
+    position: absolute;
+    height: 12px !important;
+    top: -7%;
+    left: -400%;
+}
+
+.contact_para_con {
+    font-size: 0.9rem;
+    color: #1F2B6C;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .contact_bg {
+        height: 30vh;
+        padding-left: 2rem;
+    }
+
+    .contact_heading {
+        font-size: 1.8rem;
+    }
+
+    .contact_card {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contact_card i {
+        font-size: 1.5rem;
+    }
+
+    .contact_line img {
+        height: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact_bg {
+        height: 25vh;
+        padding-left: 1rem;
+    }
+
+    .contact_heading {
+        font-size: 1.5rem;
+    }
+
+    .contact_heading_2 {
+        font-size: 1.5rem;
+    }
+
+    .contact_card {
+        width: 40px;
+        height: 40px;
+    }
+
+    .contact_card i {
+        font-size: 1.2rem;
+    }
+
+    .contact_line img {
+        height: 100px;
+    }
+
+    .contact_para_con {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact_bg {
+        height: 20vh;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact_heading {
+        font-size: 1.2rem;
+    }
+
+    .contact_heading_2 {
+        font-size: 1.2rem;
+    }
+
+    .contact_card {
+        width: 35px;
+        height: 35px;
+    }
+
+    .contact_card i {
+        font-size: 1rem;
+    }
+
+    .contact_line img {
+        height: 80px;
+    }
+
+    .contact_para_con {
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,57 @@
+.box-1 {
+  width: 180px;
+  height: 140px;
+  background-color: #fff;
+}
+
+.box-5 {
+  width: 180px;
+  height: 35px;
+  background-color: #1f2b6c;
+  padding: 7px;
+  font-size: 13px;
+}
+.box-5 p {
+  color: #b4a7a7 !important;
+}
+ul {
+  list-style-type: disc;
+}
+ul::marker {
+  color: red;
+}
+
+ul li {
+  color: black;
+  font-size: 1.2rem;
+}
+
+ul li i {
+  color: #159eec;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.paragraph_2 p {
+  font-size: 1rem;
+  color: #212124;
+  font-weight: 500;
+}
+
+.heading_3 {
+  font-size: 30px;
+  color: #159eec;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.heading_1 {
+  font-size: 45px;
+  color: #1f2b6c;
+  font-weight: 700;
+}
+
+.box-1.active {
+  background-color: #1f2b6c;
+  color: white;
+}

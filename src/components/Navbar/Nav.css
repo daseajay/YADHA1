@@ -1,0 +1,145 @@
+/* General Styling */
+.nav-link {
+  font-size: 17px !important;
+  color: #a79d9d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700 !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid gray;
+  color: #000;
+  font-weight: 700;
+}
+
+.active-item {
+  border-bottom: 2px solid #a79d9d;
+  font-weight: bold;
+}
+
+.nav-button,
+.nav-button-2 {
+  width: 150px;
+  background-color: #002854;
+  color: #fff;
+  border: none;
+  padding: 10px 5px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Navbar Toggler */
+.navbar-toggler {
+  border: 0.3rem solid #fff;
+  padding: 5px;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 900;
+}
+
+.btn-close {
+  border-radius: 50%;
+  border: 2px solid #000;
+  color: #000;
+  font-weight: 700;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar {
+  background-color: #fff;
+  height: 9vh;
+  padding: 0 1rem;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .navbar {
+    height: auto;
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-toggler {
+    font-size: 1.2rem;
+  }
+
+  .nav-link {
+    font-size: 15px;
+  }
+
+  .nav-button,
+  .nav-button-2 {
+    width: 100%;
+    border-radius: 30px;
+    font-size: 14px;
+  }
+
+  .offcanvas-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .offcanvas-body ul {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .nav-link {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+  }
+
+  .nav-button-2 {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-toggler {
+    font-size: 1rem;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .nav-button,
+  .nav-button-2 {
+    font-size: 13px;
+  }
+}
+
+/* Large Screen Adjustments */
+@media (min-width: 992px) {
+  .offcanvas {
+    display: none;
+  }
+
+  .navbar {
+    padding: 0 2rem;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+
+  .nav-button {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.custom-border {
+  position: relative;
+  width: 50%;
+  height: 5px;
+  background: linear-gradient(to right, #4a5ca7, #90c9f9); /* The gradient color */
+}
+
+.custom-border::before,
+.custom-border::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #4a5ca7;
+  border-radius: 50%;
+}
+
+.custom-border::before {
+  left: -20px; /* Adjust the position to create left curve */
+  top: -20px;
+  border-right: none;
+  border-bottom: none;
+} 
+
+.custom-border::after {
+  right: -20px; /* Adjust the position to create right curve */
+  top: -20px;
+  border-left: none;
+  border-top: none;
+}
+
+    </style>
+</head>
+<body>
+    <div class="custom-border"></div>
+
+</body>
+</html>

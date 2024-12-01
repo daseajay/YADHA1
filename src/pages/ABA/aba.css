@@ -1,0 +1,42 @@
+.ABA_bg{
+    background-image: url('../../assets//images//img33.png');
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.aba_span{
+    font-size: 1rem;
+    color: #1F2B6C;
+    font-weight: 500;
+}
+
+.aba_span a{
+    text-decoration: none;
+    color: #1F2B6C;
+}
+
+.aba_heading{
+    font-size: 2rem;
+    color: #1F2B6C;
+    font-weight: 700;
+}
+
+.aba_heading_2{
+    font-size: 2rem;
+    color: #1F2B6C;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.aba_para_top{
+    font-size: 1rem;
+    color: #008CFF;
+    font-weight: 600;
+}

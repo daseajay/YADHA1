@@ -1,0 +1,126 @@
+.service_bg{
+    background-image: url("../../assets//images/img17.png");
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.service_heading{
+    font-size: 2rem;
+    color: #1F2B6C;
+    font-weight: 700;
+}
+
+.service_span{
+    font-size: 1rem;
+    color: #1F2B6C;
+    font-weight: 500;
+}
+
+.service_span a{
+    text-decoration: none;
+    color: #1F2B6C;
+}
+
+.card_heading{
+    font-size: 1.2rem;
+    color: #1F2B6C;
+    font-weight: 700;
+}
+
+.card_para{
+    font-size: 1rem;
+    color: #212124;
+    font-weight: 500;
+}
+
+/* Ensure all cards have the same height and width */
+.card {
+    position: relative;
+    height: 100%; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    /* transition: background 0.3s ease; */
+    border-radius: 8px;
+    overflow: hidden; 
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px; 
+    object-fit: cover; 
+    transition: 0.3s ease; 
+}
+.card_img{
+    background-image: url("../../assets/images/img21.png");
+    height: 40vh;
+    background-size: 100%;
+    background-position: center;
+}
+
+.card:hover img  {
+    filter: brightness(50%); 
+    opacity: 0.5; 
+}
+
+
+.card_round_img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #1F2B6C;
+    border-radius: 50%;
+    top: 40%; 
+    left: 73%; 
+    transform: translate(-15%, -0%); 
+    opacity: 1; 
+    transition: opacity 0.5s ease, transform 0.3s ease; 
+}
+.card_round_img_2 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #1F2B6C;
+    border-radius: 50%;
+    top: 36%; 
+    left: 73%; 
+    transform: translate(-15%, -0%); 
+    opacity: 1; 
+    transition: opacity 0.5s ease, transform 0.3s ease; 
+}
+
+.card:hover .card_round_img {
+    opacity: 1; 
+    transform: translate(-50%, -50%) scale(1.2); 
+    top: 25%;
+    left: 50%;
+}
+.card:hover .card_round_img_2 {
+    opacity: 1; 
+    transform: translate(-50%, -50%) scale(1.2); 
+    top: 20%;
+    left: 50%;
+}
+
+
+
+.card_col {
+    display: flex;
+    flex-grow: 1;
+}
